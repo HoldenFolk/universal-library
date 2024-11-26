@@ -5,7 +5,7 @@ import {
 	Route,
 	Navigate,
 } from 'react-router-dom';
-import LandingPage from './screens/LandingPage';
+import { LandingPage } from './screens/LandingPage';
 
 const NavigationRouter: React.FC = () => {
 	return (

@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { PageTemplate } from '../../template/index';
 import backgroundImage from '../../../assets/backsplash.png';
+import LandingTitle from '../../molecule/LandingTitle';
 
 interface LandingPageProps {
 	header?: React.ReactNode;
@@ -25,6 +26,7 @@ export const LandingPage = ({
 				footer={footer}
 				{...rest}
 			>
+				<LandingTitle />
 				{children}
 			</PageTemplate>
 		</LandingPageContainer>
@@ -40,6 +42,7 @@ const LandingPageContainer = styled.div`
 	min-height: 100vh;
 `;
 
+// TODO: Add Font Themes
 const HeroContent = styled.div`
 	padding: 2rem;
 	text-align: center;
