@@ -12,9 +12,13 @@
     "lint:fix": "eslint */**/*.{js,ts,tsx} --quiet --fix"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "react": "^18.3.1",
+    "react-bootstrap": "^2.10.6",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^7.0.1",
     "react-scripts": "^5.0.1",
+    "styled-components": "^6.1.13",
     "typescript": "^5.7.2"
   },
   "devDependencies": {
